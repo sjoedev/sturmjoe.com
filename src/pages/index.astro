@@ -3,6 +3,19 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout>
-  <h1 class="text-lg font-bold">Welcome to sturmjoe.com!</h1>
-  <p>The site is currently under construction.</p>
+  <div class="banner">page undergoing<br />maintenance</div>
 </Layout>
+
+<style>
+  .banner {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cornsilk;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+  }
+</style>
